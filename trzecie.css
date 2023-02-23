@@ -1,0 +1,63 @@
+body
+{
+	font-family: Georgia, Tahoma, Arial;
+}
+div .table /* see what I did there? */
+{
+	border: 1px solid #e8e8e8;
+	/* border-spacing: 10px; zamiast cellspacing -->
+	<!-- width: 530px; */
+	display: grid; 
+	grid: auto-flow dense;
+	grid-auto-columns: auto; 
+	 grid-template-columns: 270px 270px;
+	grid-template-rows: 1fr 1fr;
+	grid-template: 
+		"a b" /auto; 
+}
+.td
+{
+	/* width: 270px; */
+	border: 1px solid #e8e8e8;
+	padding: 10px;/* zamiast cellpadding */
+}
+.header
+{
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+form
+{
+	width: 500px;
+	background-color: beige;
+	display: grid;
+	grid-template:	"a a" /auto;
+}
+td
+{
+	width: 50px;
+}
+.pierwsze
+{
+	 display: grid; 
+	 grid: auto-flow dense;
+	grid-auto-columns: auto;
+	grid-template-columns: 50px 50px 50px;
+	grid-template-rows: 1fr 1fr;
+	grid-template: 
+		"a b c" auto
+		"d d d" auto;
+}
+.cztery
+{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.drugie
+{
+	display: grid;
+	grid-template: 
+		"a a b b b" auto
+		"c d e f g" auto;
+}

@@ -1,0 +1,85 @@
+body
+{
+	font-family: Georgia, Tahoma, Arial;
+}
+.rama
+{
+	display: grid; 
+	grid: auto-flow dense;
+	grid-auto-columns: auto;
+	grid-template-columns: 50px 50px 50px 50px; 
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template: 
+		"a a a a" auto
+		"b c d e" /auto;
+	border: 1px solid #e8e8e8;
+	width: 300px;  
+	background-color: #dbdb41;
+	border-spacing: 10px;
+}
+.text
+{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	font-family: mono;
+}
+div div {
+	border: 1px solid #e8e8e8;
+	padding: 10px;
+	<!-- width: 50px;  -->
+}
+input
+{
+	width: 40px;
+}
+.text input
+{
+	width: 90%;
+	font-family: 'Xanh Mono', Courier New, monospace;
+}
+header
+{
+	width: 100%;
+}
+/* poniższy kod został przeklejony z http://webroad.pl/html5-css3/610-rozwijane-menu-wielopoziomowe */
+#mainmenu, #mainmenu ul {list-style: none; margin: 0; padding: 0;} 
+ 
+  #mainmenu ul {width: 160px;} 
+ 
+  #mainmenu ul li {clear: both;} 
+ 
+  #mainmenu > li {float: left; margin-right: 10px; position: relative;} 
+ 
+  #mainmenu > li li {position: relative;} 
+ 
+  #mainmenu > li ul {position: absolute; left: 0;} 
+ 
+  #mainmenu > li ul li ul {position: absolute; left: 160px; top: 0px;} 
+ 
+  ul ul {display: none;} 
+ 
+  ul li:hover > ul {display: block;}
+  /*POZIOM 1*/ 
+ 
+  #mainmenu {margin: 50px 50px; font-family: calibri; tahoma, arial;} 
+ 
+  #mainmenu > li > a {padding: 8px; border-radius: 3px; text-align: center; text-decoration: none; color: #84c5f7;} 
+ 
+  #mainmenu > li:hover > a {background: #eee; color: #0090ff;} 
+ 
+ 
+ 
+  /*POZIOMY NIŻSZE*/ 
+ 
+  #mainmenu ul {font-size: 12px; border-radius: 3px; background: #eee;} 
+ 
+  #mainmenu ul li > a {color: #999; display: block; padding: 5px; border-radius: 3px; text-decoration: none;} 
+ 
+  #mainmenu ul li:hover > a {color: #eee; background: #aaa;}
+  
+  .arrow {display: inline-block; margin: 0 5px 0; height: 0; vertical-align: top; content: ""; position: absolute;} 
+ 
+  #mainmenu > li > a > .arrow {top: 17px; right: 0; margin-right: -8px; border-top: 3px solid #333; border-right: 3px solid transparent; border-left: 3px solid transparent;} 
+ 
+  ul ul .arrow {top: 10px; right: 0; border-top: 3px solid transparent; border-right: 3px solid transparent; border-left: 3px solid #333; border-bottom: 3px solid transparent;} 
+ 

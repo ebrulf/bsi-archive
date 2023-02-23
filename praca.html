@@ -1,0 +1,79 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Praca zaliczeniowa</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- webhint powiedział że dla responsywności -->
+		<!-- domyślnie są to type="text/javascript" -->
+		<link href="styl.css" rel="stylesheet" />
+		<style>
+		input {margin: 20px; width: 70px;}
+		</style>
+		<link href="favicon-120x120.png" type="image/png" rel="icon" sizes="120x120" />
+	</head>
+	<body>
+	<header>
+	<ul id="mainmenu">
+<li><a href="index.php">Strona główna</a><i class="arrow"></i>
+<ul>
+<li><a href="xml.html">Prosta wersja</a></li>
+<li><a href="proste.html">Jeszcze prostsza</a></li>
+</ul></li>
+<li>Tabelki<i class="arrow"></i>
+<ul>
+<li><a href="zadanie3a.php">Colspan</a></li>
+<li><a href="zadanie2b.html">Galeria</a></li>
+<li><a href="zadanie3c.php">Formularz</a></li>
+</ul></li>
+<li>Div i CSS<i class="arrow"></i>
+<ul>
+<li><a href="zadanie2a.html">Colspan</a></li>
+<li><a href="zadanie3b.php">Galeria</a></li>
+<li><a href="zadanie2c.html">Formularz</a></li>
+</ul></li>
+<li>XSLT</li>
+<li><A href="zadanie5.php">JavaScript</a></li>
+<li>JS regex</li>
+<li>PHP RegEx</li>
+<li><a href="zadanie8.php"><s style="text-decoration: line-through;">PHP login</s></a></li>
+<li><a href="zadanie9.php"><s style="text-decoration: line-through;">MySQL</s></a></li>
+<li><a href="praca.php">Praca zaliczeniowa</a></li>
+</ul>
+	</header>
+	<br />
+	<div>
+	<div style="background-color: #dbdb41; width: 100px;">
+	<form action="praca.php" method="post">
+		<label>Login </label><input type="text" title="Nazwa użytkonika bazy danych" placeholder="kanclerz" name="login" id="login" size="25" maxlength="50" autocomplete="username"/><br />
+		<label>Hasło </label><input type="password" name="haslo" title="Hasło użytkownika bazy danych" id="haslo" size="25" maxlength="50" autocomplete="current-password"/><br />
+	<input type="submit" name="log" value="Zaloguj"/>
+	</form>
+	</div>
+	<div style="background-color: #dbdb41; width: 500px;">
+	<form action="praca.php" method="post">
+		<label>Imię</label><input type="text" name="imie" title="Imię dodawanego studenta" placeholder="Dërsla" id="imie" size="25" maxlength="50" spellcheck="true" />
+		<label>Nazwisko</label><input type="text" name="nazwisko" id="nazwisko" title="Nazwisko dodawanego studenta" placeholder="Schläppi-Hübner" size="25" maxlength="50" spellcheck="true"/>
+		<label>Wiek</label><input type="text" name="wiek" id="wiek" title="Wiek dodawanego studenta" placeholder="23" size="3" minlength="2" maxlength="3"/>
+	<input type="submit" name="add" value="Dodaj"/>
+	</form>
+	</div>
+	<br />
+	<div style="background-color: #dbdb41; width: 100px;">
+	<form action="praca.php" method="post">
+		<label>Usuń ID: </label>
+		<select id="id-sel" title="ID rekordu do usunięcia">
+		<option value="">Wybierz ID</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		</select>
+	<input type="submit" name="del" value="Usuń"/>
+	</form>
+	</div>
+	</div>
+	</body>
+</html>

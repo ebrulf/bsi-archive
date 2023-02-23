@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+<title>Strona główna XHTML 1.1</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+body
+{
+	font-family: Georgia, Tahoma, Arial;
+}
+table
+{
+	border: solid #e8e8e8;
+	border-spacing: 10px;<!-- zamiast cellspacing -->
+	width: 530px;
+}
+td
+{
+	width: 270px;
+	padding: 10px;<!-- zamiast cellpadding -->
+}
+</style>
+</head>
+<body>
+<h1>Zadanie</h1>
+<table align="center">
+<caption>Zdjęcia z Wikimedia</caption>
+<tbody>
+<tr>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Narcissus_%27Ice_Follies%27_02.jpg/238px-Narcissus_%27Ice_Follies%27_02.jpg" alt="Zdjęcie narcyza"/> <br /><strong>Narcyz</strong></td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/ISS054-E-45203_-_View_of_Earth.jpg/320px-ISS054-E-45203_-_View_of_Earth.jpg" alt="Zdjęcie Ziemi"/> <br /><strong>Widok ze stacji kosmicznej</strong></td>
+</tr>
+<tr>
+<td>
+<figure>
+<picture>
+    <source srcset="https://upload.wikimedia.org/wikipedia/commons/1/1d/Wappen_Linx.png"
+            media="(max-width: 50px)">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Wappen_Linx.png" alt="Herb Linx" width="50px"/>
+</picture>
+</figure>
+<figcaption>Herb Linx</figcaption>
+</td>
+<td>
+<figure>
+<picture>
+    <source srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Slenaken-Heilig_Hartbeeld_%287%29.jpg/135px-Slenaken-Heilig_Hartbeeld_%287%29.jpg"
+            media="(max-height: 200px)">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Slenaken-Heilig_Hartbeeld_%287%29.jpg/135px-Slenaken-Heilig_Hartbeeld_%287%29.jpg" alt="Rzeźba Najświętszego Serca" height="200px" width="200px"/>
+</picture>
+</figure>
+<figcaption>Rzeźba Najświętszego Serca Pana Jezusa w Slenaken (rozciągnięta)</figcaption>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Jest to zadanie <em>2b</em>. Inne wersje: <a href="zadanie2c.html">2c</a>.<br/>
+Dlaczego użyłem grid zamiast tabeli: <a href="https://eev.ee/blog/2020/02/01/old-css-new-css/">wyjaśnienie</a> plus <a href="https://eev.ee/media/2020-02-css/thumbnail-grids.html">demo</a>.</p>
+</body>
+</html>

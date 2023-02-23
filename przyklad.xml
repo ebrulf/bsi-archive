@@ -1,0 +1,439 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Equifax.xslt"?>
+<Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <References>
+    <Our_Ref>150000</Our_Ref>
+  </References>
+  <Status>
+    <Date>2010-02-25</Date>
+    <Speed>Flash</Speed>
+    <Report>Full</Report>
+  </Status>
+  <Identification>
+    <Given>
+      <SubjectName>Nazwa spółki</SubjectName>
+      <Address>
+        <Street>Ulica</Street>
+        <Town>Miasto</Town>
+        <Province>Prowincja</Province>
+        <Zipcode>05-300</Zipcode>
+        <Country>Zjednoczone Królestwo</Country>
+      </Address>
+      <Comments>Komentarze</Comments>
+    </Given>
+    <Verified>
+      <SubjectName>SubjectName</SubjectName>
+      <OtherStyle>Other style</OtherStyle>
+      <Address>
+        <Street>Verified Street</Street>
+        <Town>Verified Town</Town>
+        <Province>Verified Province</Province>
+        <Zipcode>06-300</Zipcode>
+        <Country>United Kingdom</Country>
+      </Address>
+      <PostalAddress>
+        <Street>Postal Street</Street>
+        <Town>Postal Town</Town>
+        <Province>Postal Province</Province>
+        <Zipcode>70-200</Zipcode>
+        <Country>Postal Country</Country>
+      </PostalAddress>
+      <Telephone>+44 567-456-789</Telephone>
+      <Mobile>+44 222-456-789</Mobile>
+      <Fax>+44 123-456-789</Fax>
+      <Email>login@mail.com</Email>
+      <Website>http://www.com.pl</Website>
+      <Remarks>Remakrs</Remarks>
+    </Verified>
+  </Identification>
+  <ExecutiveSummary>
+    <DateEstablished>01/20/2009</DateEstablished>
+    <DateRegistered>02/20/2009</DateRegistered>
+    <LegalForm>Limited Partnership with shares with Join Stock Company as General Partner</LegalForm>
+    <AuthorisedCapital>GBP 10,000</AuthorisedCapital>
+    <SalesTurnover>EUR 14,131,000,000 (Consolidated 12 months, 31/12/2008</SalesTurnover>
+    <MainActivities>Home care products manufacturer</MainActivities>
+    <Employees>500</Employees>
+  </ExecutiveSummary>
+  <CreditRiskRating>
+    <RiskRating>Excellent</RiskRating>
+    <CreditRiskAnalysis />
+    <Interpretation>Exceptionally sound financial and operational base. Large credits can be considered with highest confidence that commitments can be met in almost all circumstances. Normal credit control policy applies.</Interpretation>
+    <CreditLimit>
+      <RecommendedLimit>EUR 1,000,000</RecommendedLimit>
+      <Requested>EUR 5,000,000</Requested>
+    </CreditLimit>
+    <Comments>Comments..</Comments>
+  </CreditRiskRating>
+  <RegistryData>
+    <DateEstablished>1876</DateEstablished>
+    <DateRegistered>14-12-1974</DateRegistered>
+    <LegalForm>Limited Partnership with shares with Join Stock Company as General Partner</LegalForm>
+    <RegistrationNo>HCB 64724</RegistrationNo>
+    <RegistryAuthorised>6785 London Regional Court</RegistryAuthorised>
+    <FiscalCode>UK 119429001</FiscalCode>
+    <OtherRegistration>Other reg....</OtherRegistration>
+    <RegistryStatus>Live/Active</RegistryStatus>
+    <PreviousName>The Subject initially operated as a limited partnership with shares under the name of ...</PreviousName>
+    <Comments>The Subject merged with ...</Comments>
+  </RegistryData>
+  <LegalFilings>
+    <BankruptcyFilings>None</BankruptcyFilings>
+    <CourtJudgements>None</CourtJudgements>
+    <TaxLiens>None</TaxLiens>
+    <Other>None</Other>
+  </LegalFilings>
+  <ManagementAndStaff>
+    <KeyManager>
+      <Name>John James1</Name>
+      <JobTitle>Executive Vice President Finance</JobTitle>
+      <Biography>Born in 1951</Biography>
+    </KeyManager>
+    <KeyManager>
+      <Name>John James2</Name>
+      <JobTitle>Chief Executive Officer</JobTitle>
+      <Biography>Born in 1952</Biography>
+    </KeyManager>
+    <KeyManager>
+      <Name>John James3</Name>
+      <JobTitle>Executive Vice President Finance </JobTitle>
+      <Biography>Born in 1955</Biography>
+    </KeyManager>
+    <Comments>Comments...</Comments>
+    <KeyAdvisors>
+      <Auditor>Auditor...</Auditor>
+      <Solicitor>Solicotor...</Solicitor>
+      <Insurer>Insurer...</Insurer>
+    </KeyAdvisors>
+    <Staff>
+      <NoOfEmployees>8,474 (Subject); 50,948 (Group world-wide)</NoOfEmployees>
+    </Staff>
+  </ManagementAndStaff>
+  <BoardOfDirectors>
+    <Appointment>
+      <Name>Adam Smith1</Name>
+      <Boardfunction>Supervisory Board Deputy Chairman</Boardfunction>
+      <IDNumber>123</IDNumber>
+      <DateAppointed>01/03/2005</DateAppointed>
+      <Address>London UK</Address>
+      <Biography>Born in 1961</Biography>
+    </Appointment>
+    <Appointment>
+      <Name>Adam Smith2</Name>
+      <Boardfunction>Supervisory Board Member</Boardfunction>
+      <IDNumber>456</IDNumber>
+      <DateAppointed>01/03/2007</DateAppointed>
+      <Address>Düsseldorf Germany</Address>
+      <Biography>Born in 1965</Biography>
+    </Appointment>
+    <Appointment>
+      <Name>Adam Smith3</Name>
+      <Boardfunction>Supervisory Board Member</Boardfunction>
+      <IDNumber>789</IDNumber>
+      <DateAppointed>01/03/209</DateAppointed>
+      <Address>Warsaw Poland</Address>
+      <Biography>Born in 1967</Biography>
+    </Appointment>
+    <Representation>Jarek</Representation>
+    <Comments>Comments</Comments>
+  </BoardOfDirectors>
+  <ShareCapital>
+    <Authorised>EUR 437,958,750</Authorised>
+    <Type>259,795,875 ordinary shares 178,162,875 non-voting preferred shares</Type>
+    <ShareValue>EUR 1</ShareValue>
+    <Issued>EUR 437,958,750</Issued>
+    <Paidup>EUR 437,958,750</Paidup>
+    <RecentChanges>28/05/2009: Increase of share capital from EUR 237,958,750 to EUR 437,958,750.</RecentChanges>
+  </ShareCapital>
+  <ShareholdersAndOwners>
+    <HowListed>Partial List</HowListed>
+    <Composition>
+      <Name>Jarek Kurek1</Name>
+      <NoOfShares>100</NoOfShares>
+      <PercentageOfShares>99%</PercentageOfShares>
+      <Address>Wołomin</Address>
+      <Comment>Komment1</Comment>
+    </Composition>
+    <Composition>
+      <Name>Jarek Kurek2</Name>
+      <NoOfShares>100</NoOfShares>
+      <PercentageOfShares>99%</PercentageOfShares>
+      <Address>Wołomin</Address>
+      <Comment>Komment2</Comment>
+    </Composition>
+    <Composition>
+      <Name>Jarek Kurek3</Name>
+      <NoOfShares />
+      <PercentageOfShares>99%</PercentageOfShares>
+      <Address>Wołomin</Address>
+      <Comment>Komment3</Comment>
+    </Composition>
+    <Changes>Changes:...</Changes>
+    <Comments>The Subject's shares are predominantly traded on ...</Comments>
+  </ShareholdersAndOwners>
+  <CorporateAffiliations>
+    <Structure>
+      <Name>JANKEL MANAGEMENT AG</Name>
+      <AffliationType>General Partner</AffliationType>
+      <Address>123456 Düsseldorf, Germany</Address>
+      <Comment>Commment:...</Comment>
+    </Structure>
+    <Structure>
+      <Name>INTERNATIONAL INVESTORS LIMITED</Name>
+      <AffliationType>Limited Partner</AffliationType>
+      <Address>London, United Kingdom</Address>
+      <Comment />
+    </Structure>
+    <Structure>
+      <Name>IBM LTD</Name>
+      <AffliationType>shareholder</AffliationType>
+      <Address>Netherlands</Address>
+      <Comment>Comment:</Comment>
+    </Structure>
+    <Comments>The full list of subsidiaries is attached to this report.</Comments>
+  </CorporateAffiliations>
+  <BankingAndFinancing>
+    <Bankers>
+      <BankName>COMMERZBANK AG</BankName>
+      <Address>40002 Düsseldorf Germany</Address>
+      <RelationShipType>Current Account</RelationShipType>
+      <AccountNumber>1211</AccountNumber>
+      <ContactPerson>Person1</ContactPerson>
+      <Comments>Comment:...</Comments>
+    </Bankers>
+    <Bankers>
+      <BankName>DEUTSCHE BANK AG</BankName>
+      <Address>40002 Düsseldorf Germany</Address>
+      <RelationShipType>Current Account</RelationShipType>
+      <AccountNumber>12111</AccountNumber>
+      <ContactPerson>Person2</ContactPerson>
+      <Comments>Comment2</Comments>
+    </Bankers>
+    <ExternalMeans>ExternalMeans:...</ExternalMeans>
+    <InternalMeans>InternalMeans:...</InternalMeans>
+    <ChargesAndMortgages>None</ChargesAndMortgages>
+    <UCCFillings>UCCFillings:...</UCCFillings>
+    <Comments>Comment:...</Comments>
+  </BankingAndFinancing>
+  <FinancialAccounts>
+    <FinancialDescription>
+      <RequiredToFile>Yes</RequiredToFile>
+      <Source>Provided by the Subject</Source>
+      <Presentation>Attached to this report / Summarised below</Presentation>
+      <DateOfAccounts>2010-02-25</DateOfAccounts>
+      <TypeOfAccounts>Full audited</TypeOfAccounts>
+      <Currency>USD</Currency>
+      <ExchangeRate>0.73</ExchangeRate>
+      <Multiplier>1</Multiplier>
+    </FinancialDescription>
+    <Summarised>
+      <Consolidation>Consolidated</Consolidation>
+      <Period>9 months</Period>
+      <Date>2009-09-30</Date>
+      <Multiplier>1</Multiplier>
+      <Currency>USD</Currency>
+      <ExchangeRate>USD 1 = EUR 0.73 as of 22-02-2010</ExchangeRate>
+      <FinancialField>
+        <Name>Sales Turnover</Name>
+        <Value>10228000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Gross Profit</Name>
+        <Value>4626000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Operating Profit</Name>
+        <Value>787000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Profit before tax</Name>
+        <Value>635000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Profit after tax</Name>
+        <Value>451000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Non-current assets</Name>
+        <Value>11115000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Current assets</Name>
+        <Value>4986000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Total assets</Name>
+        <Value>16101000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Current liabilities</Name>
+        <Value>4203000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Non-current liabilities</Name>
+        <Value>5471000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Total liabilities</Name>
+        <Value>9674000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Shareholders' equity</Name>
+        <Value>6427000000</Value>
+      </FinancialField>
+    </Summarised>
+    <Summarised>
+      <Consolidation>Consolidated</Consolidation>
+      <Period>12 months</Period>
+      <Date>2008-12-31</Date>
+      <Multiplier>1</Multiplier>
+      <Currency>USD</Currency>
+      <ExchangeRate>USD 1 = EUR 0.73 as of 22-02-2010</ExchangeRate>
+      <FinancialField>
+        <Name>Sales Turnover</Name>
+        <Value>14131000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Gross Profit</Name>
+        <Value>5941000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Operating Profit</Name>
+        <Value>779000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Profit before tax</Name>
+        <Value>1627000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Profit after tax</Name>
+        <Value>1233000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Non-current assets</Name>
+        <Value>11261000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Current assets</Name>
+        <Value>4813000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Total assets</Name>
+        <Value>16074000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Current liabilities</Name>
+        <Value>5293000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Non-current liabilities</Name>
+        <Value>4246000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Total liabilities</Name>
+        <Value>9539000000</Value>
+      </FinancialField>
+      <FinancialField>
+        <Name>Shareholders' equity</Name>
+        <Value>6535000000</Value>
+      </FinancialField>
+    </Summarised>
+    <Comments>It is generally not the policy of local banks to provide credit status information to...</Comments>
+  </FinancialAccounts>
+  <OperationAndHistory>
+    <Activities>
+      <FullDescription>The Subject is engaged in the manufacture of ...</FullDescription>
+      <Products>The strategic fields of business within ...</Products>
+      <Brands>Coca-Cola,Pepsi</Brands>
+    </Activities>
+    <Purchases>
+      <Local>Germany</Local>
+      <Import>PRC of China</Import>
+    </Purchases>
+    <Sales>
+      <Local>Germany</Local>
+      <Export>United Kingdom</Export>
+    </Sales>
+    <KeyEvents>KeyEvents</KeyEvents>
+    <TradeBodies>None</TradeBodies>
+    <IndustryTrends>IndustryTrends...</IndustryTrends>
+    <History>History:...</History>
+  </OperationAndHistory>
+  <PropertyAndAssets>
+    <Premises>The Subject principally operates from premises located at the heading address, consisting of the Group head office.</Premises>
+    <Branches>Factory:...</Branches>
+    <OtherProperty>OtherProperty...</OtherProperty>
+    <CapitalEquipment>C...apitalEquipment</CapitalEquipment>
+    <IntellectualProperty>IntellectualProperty...</IntellectualProperty>
+  </PropertyAndAssets>
+  <JurisdictionInformation>
+    <General>General</General>
+    <OffshoreLegalAct />
+    <LegalBackground />
+  </JurisdictionInformation>
+  <Payments>
+    <PurchaseTerms>
+      <Local>Cash Credits 14-30 days</Local>
+      <Import>L/Cs Credits 30 days net</Import>
+    </PurchaseTerms>
+    <SalesTerms>
+      <Local>Cash Credits 14-30 days</Local>
+      <Export>L/Cs Credits 30 days net</Export>
+    </SalesTerms>
+    <DebtCollections>No negative information was found.</DebtCollections>
+    <PaymentExperiences>
+      <SupplierName>Supplier1</SupplierName>
+      <Address>Town1</Address>
+      <Date>25/03/2009 10:55:11</Date>
+      <Telephone>Telephone:..</Telephone>
+      <Fax>Fax:...</Fax>
+      <ContactPerson>Contact Person:..</ContactPerson>
+      <TimeKnown>TimeKnown</TimeKnown>
+      <TradeTerms>Trade Terms</TradeTerms>
+      <PaymentRecord>Payment Records</PaymentRecord>
+      <Litigation>Ligitation</Litigation>
+      <AverageBill>Average:...</AverageBill>
+      <CreditLimit>Credit Limit</CreditLimit>
+      <GeneralComment>General Comment</GeneralComment>
+    </PaymentExperiences>
+    <PaymentExperiences>
+      <SupplierName>Supplier2</SupplierName>
+      <Address>Town1</Address>
+      <Date>25/03/2009 11:55:11</Date>
+      <Telephone>Telephone2</Telephone>
+      <Fax>Fax2</Fax>
+      <ContactPerson>Contact Person2</ContactPerson>
+      <TimeKnown>TimeKnown2</TimeKnown>
+      <TradeTerms>Trade Terms2</TradeTerms>
+      <PaymentRecord>Payment Records2</PaymentRecord>
+      <Litigation>Ligitation2</Litigation>
+      <AverageBill>Average2</AverageBill>
+      <CreditLimit>Credit Limit2</CreditLimit>
+      <GeneralComment>General Comment2</GeneralComment>
+    </PaymentExperiences>
+    <PaymentExperiences>
+      <SupplierName>Supplier3</SupplierName>
+      <Address>Town3</Address>
+      <Date>25/03/2009 11:51:11</Date>
+      <Telephone>Telephone3</Telephone>
+      <Fax>Fax3</Fax>
+      <ContactPerson>Contact Person3</ContactPerson>
+      <TimeKnown>TimeKnown3</TimeKnown>
+      <TradeTerms>Trade Terms3</TradeTerms>
+      <PaymentRecord>Payment Records3</PaymentRecord>
+      <Litigation>Ligitation3</Litigation>
+      <AverageBill>Average3</AverageBill>
+      <CreditLimit>Credit Limit3</CreditLimit>
+      <GeneralComment>General Comment3</GeneralComment>
+    </PaymentExperiences>
+    <PaymentTable>Payment table:...</PaymentTable>
+    <PaymentBehaviour>As trade references were not supplied, the Subject's payment track record history CANNOT BE ACCURATELY DETERMINED, but payments are believed to be PROMPT.</PaymentBehaviour>
+  </Payments>
+  <InvestigativeNotes>
+    <Sources>Interviews and material provided by the Subject — we have contacted the Subject on...</Sources>
+  </InvestigativeNotes>
+  <Attachment>
+    <Attachments>Financial statements List of subsidiaries</Attachments>
+  </Attachment>
+  <Comments />
+</Report>
